@@ -1,5 +1,4 @@
 # POO_DavidHernandez
-Tarea 
 class Persona:
     def __init__(self, nombre, edad):
         self.nombre = nombre
