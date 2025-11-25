@@ -5,7 +5,7 @@ class Persona:
         self.edad = edad
 
     def saludar(self):
-        print("Hola, mi nombre es {} y tengo {} años".format(self.nombre, self.edad))
+        print(f"Hola, mi nombre es {self.nombre} y tengo {self.edad} años")
 
 
 p1 = Persona("Ana", 20)
@@ -183,3 +183,4 @@ class Carro:
 carro = Carro("Nissan", "Versa")
 carro.acelerar(20)
 carro.mostrar_velocidad()
+
